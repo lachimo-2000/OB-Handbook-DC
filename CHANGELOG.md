@@ -1,14 +1,17 @@
 # Changelog
 
-## 0.5.0 — 2026-09-29
+## 0.7.0 — 2026-09-30
 
-- Cập nhật theo DOCX `CA_Cam_Nang_DC_Chu_Xanh_Khoi_Phuc_5P_2809 (1)(1).docx`; giữ nguyên 196 đoạn thân bài và 11 bảng. Bao gồm phần COL, COP, COE mở rộng.
-- Trang chủ có hai lối vào. Xóa hai lối vào này khỏi sidebar và thanh điều hướng; menu theo lộ trình.
-- 5 chương cẩm nang, 6 chương CA Journey. Mục con mở ngay dưới chương trong sidebar.
-- Thêm học theo phần ngắn, thẻ mở nội dung, tự liên hệ, 13 câu ôn tập có căn cứ, 7 tình huống mô phỏng hành vi, tiến độ và tiếp tục học.
-- Thêm ghi chú tự lưu và xuất ghi chú TXT. Không tạo bảng xếp hạng hoặc tính thời gian.
-- Quy tắc hành vi: thực hành trước, tham chiếu tổng hợp sau; cho phép tra nhanh khi cần.
-- Nội dung chính thức ở `content.js`; câu hỏi biên soạn thêm ở `learning.js`.
-- Giữ logo, màu thương hiệu và font hệ thống. Giữ đường dẫn mẹ và nút quay về trang vừa xem.
-- Ngừng cache offline cũ để cập nhật nội dung đáng tin cậy hơn. Bản này không cung cấp chế độ offline khi truy cập URL.
-- Không có SCORM/xAPI hoặc đồng bộ điểm với LMS trong gói web tĩnh này.
+- Áp dụng guideline VNDIRECT mới: hệ xám/trắng, cam dùng làm điểm nhấn, cấu hình font thương hiệu; ghi rõ tài nguyên font/logo chuẩn còn thiếu.
+- Một giao diện duy nhất; gỡ bộ chọn ba giao diện.
+- Nền mờ trang chủ bằng ảnh người dùng cung cấp; avatar nam/nữ, tên người chơi và hồ sơ chỉnh sửa được.
+- Bản đồ 5 chặng, XP một lần cho mỗi nhiệm vụ, Level 1–6, 5 huy hiệu và thông báo lên level.
+- Thêm 5 thử thách tương tác: 3 trò ghép thẻ, 1 sắp thứ tự và 1 phân loại 14 hành vi.
+- Nâng 7 tình huống thành 2 bước: quyết định và căn cứ.
+- CA Journey chỉ hiện thông báo chờ cập nhật; xóa dữ liệu bài tập suy ngẫm tự biên soạn khỏi gói.
+- Giữ nguyên nội dung DOCX, các bảng, bộ lọc quy tắc, tìm kiếm, ghi chú, đánh dấu menu chính xác và nút học chương tiếp theo.
+- Dữ liệu đọc cũ vẫn được giữ; hoạt động mới cần hoàn thành để nhận huy hiệu mới.
+
+## 0.6.0 — 2026-09-29
+
+Sửa điều hướng theo mục con, DO/DON’T trước tình huống, thẻ tóm tắt quy tắc, nút học chương tiếp theo và các lựa chọn giao diện.

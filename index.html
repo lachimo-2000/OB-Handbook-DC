@@ -3,17 +3,18 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>VNDIRECT · Hành trình hội nhập</title>
-<meta name="description" content="Cẩm nang hành nghề và CA Journey — học, thực hành và tra cứu.">
+<meta name="description" content="Cẩm nang hành nghề DC: khám phá kiến thức, vượt thử thách và chinh phục hành trình hội nhập. CA Journey sẽ được cập nhật.">
 <meta name="theme-color" content="#F7941D">
 <link rel="icon" href="images/vndirect-mark.png"><link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="brand-fonts.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="components.css"><link rel="stylesheet" href="game.css">
 </head>
 <body>
 <a class="skip" href="#main">Đến nội dung</a>
-<header class="topbar"><a class="brand" href="#home" aria-label="VNDIRECT — Trang chủ"><img src="images/vndirect-logo.png" alt="VNDIRECT"></a><span class="toplabel">HÀNH TRÌNH HỘI NHẬP</span><nav aria-label="Tiện ích"><button id="menuToggle" aria-controls="sidebar" aria-expanded="false" hidden>Mục lục</button><a href="#home">Trang chủ</a><button id="searchOpen">Tìm kiếm</button></nav></header>
+<header class="topbar"><a class="brand" href="#home" aria-label="VNDIRECT — Trang chủ"><img src="images/vndirect-logo.png" alt="VNDIRECT"></a><span class="toplabel">HÀNH TRÌNH HỘI NHẬP</span><nav aria-label="Tiện ích"><button id="menuToggle" aria-controls="sidebar" aria-expanded="false" hidden>Mục lục</button><a href="#home">Trang chủ</a><button id="searchOpen">Tìm kiếm</button><button id="motionToggle" aria-pressed="false">Giảm chuyển động</button><button id="profileOpen" aria-haspopup="dialog">Nhân vật</button></nav></header>
 <div id="layout"><aside id="sidebar" aria-label="Mục lục" hidden></aside><main id="main" tabindex="-1"></main></div>
 <dialog id="searchDialog"><form method="dialog" class="dialogtop"><label for="searchInput">Tìm trong nội dung học</label><button aria-label="Đóng tìm kiếm">×</button></form><input id="searchInput" type="search" placeholder="Thử: 5P, giữ lời hẹn, bảo mật…" autocomplete="off"><div id="searchResults"></div></dialog>
+<dialog id="profileDialog" aria-label="Hồ sơ người chơi"><form method="dialog" class="dialogtop"><span>HỒ SƠ NGƯỜI CHƠI</span><button aria-label="Đóng hồ sơ">×</button></form><div class="profile-body"></div></dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 <noscript>Cẩm nang cần JavaScript để hiển thị nội dung và hoạt động tương tác. Hãy mở trong trình duyệt cho phép JavaScript.</noscript>
-<script src="content.js"></script><script src="learning.js"></script><script src="app.js"></script>
+<script src="ui.js"></script><script src="content.js"></script><script src="learning.js"></script><script src="game-data.js"></script><script src="app.js"></script>
 </body></html>

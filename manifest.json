@@ -1,12 +1,12 @@
 {
   "name": "VNDIRECT | Cẩm nang & CA Journey",
   "short_name": "VNDIRECT",
-  "description": "Cẩm nang hành nghề DC và CA 360 – Internal Customer View",
+  "description": "Hành trình hội nhập: Cẩm nang hành nghề DC. CA Journey sẽ được cập nhật.",
   "lang": "vi",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#F7F7F4",
+  "background_color": "#FFFFFF",
   "theme_color": "#F7941D",
   "icons": [
     {

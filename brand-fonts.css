@@ -1,0 +1,7 @@
+/* Brand faces are proprietary and were not included in the supplied guideline.
+   Use authorized system installations; optional licensed webfont setup: fonts/README.md. */
+@font-face{font-family:'SVN Gilroy';src:local('SVN-Gilroy'),local('SVN Gilroy'),local('SVN-Gilroy Regular');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'SVN Gilroy';src:local('SVN-Gilroy Medium'),local('SVN Gilroy Medium');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'SVN Gilroy';src:local('SVN-Gilroy SemiBold'),local('SVN Gilroy SemiBold');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:'SVN Gilroy';src:local('SVN-Gilroy Bold'),local('SVN Gilroy Bold');font-weight:700 900;font-style:normal;font-display:swap}
+@font-face{font-family:'UTM Bebas';src:local('UTM Bebas');font-weight:400;font-style:normal;font-display:swap}

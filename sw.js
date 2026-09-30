@@ -1,4 +1,4 @@
-/* v0.5: retire v0.3/v0.4 cached files within this app's scope only.
+/* v0.7: retire v0.3/v0.4 cached files within this app's scope only.
    No response interception. Study notes continue to use localStorage. */
 self.addEventListener('install',()=>self.skipWaiting());
 self.addEventListener('activate',event=>event.waitUntil((async()=>{

@@ -1,5 +1,5 @@
 window.HANDBOOK = {
-  "version": "0.5.0",
+  "version": "0.7.0",
   "date": "2026-09-29",
   "title": "CẨM NANG HÀNH NGHỀ",
   "audience": "Dành cho DC mới và DC cần hiểu lại nền tảng văn hóa, tổ chức.",

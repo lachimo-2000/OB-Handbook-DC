@@ -1,24 +1,33 @@
-# Ghi chú thiết kế học tập dành cho người quản trị
+# Thiết kế hành trình v0.7
 
-## Cách áp dụng
+Người học vào vai nhân viên chứng khoán tại bàn tư vấn. Hai bản đồ là hai lối vào ở trang chủ; Cẩm nang đang mở, CA Journey chờ nội dung chính thức. Không tự viết tiếp nội dung CA khi nguồn chưa có.
 
-- Chia nội dung thành phần ngắn với nút trước/sau; giữ bản đầy đủ để tra cứu. Mục tiêu là giảm số thông tin phải xử lý cùng lúc, không cắt bỏ nội dung nguồn.
-- Kết hợp nội dung minh họa với thực hành, truy hồi kiến thức và phản hồi có căn cứ. Các bài tập không khóa quyền đọc tài liệu.
-- Liên hệ công việc: tình huống về thông tin chưa rõ, phạm vi tư vấn, lời hẹn, bàn giao, KPI, quà tặng và dữ liệu khách. Tình huống được ghi rõ là mô phỏng, không phải case thực tế của công ty.
-- Quyền tự chủ của người học trưởng thành: chọn chương theo nhu cầu, tra cứu bất kỳ lúc nào, viết ghi chú riêng, thử lại không giới hạn.
-- Dùng tiến độ và mốc hoàn thành làm phản hồi cá nhân; không suy diễn điểm thực hành thành năng lực nghề nghiệp đã được chứng nhận.
-- CA Journey: sáu câu hỏi nguồn được giữ nguyên; lời dẫn, gợi ý suy ngẫm và liên kết cẩm nang là thiết kế học tập mới. Không có dữ liệu nghiệp vụ đủ để xây dựng sáu chương trả lời chính thức.
+## Vòng hoạt động
 
-## Tài liệu tham khảo phương pháp
+1. Đọc một hồ sơ kiến thức ở dạng phần nhỏ; mở bảng/thẻ để khám phá và ghi chú nếu muốn.
+2. Gọi lại kiến thức bằng thao tác ghép, sắp xếp hoặc phân loại. Thẻ sai được đánh dấu bằng chữ/ký hiệu, không chỉ màu; người học có thể đối chiếu nguồn và sửa.
+3. Áp dụng vào câu hỏi hoặc hồ sơ tình huống. Trong chương quy tắc, quyết định đúng mới mở bước chọn căn cứ. Quy tắc và phản hồi đều lấy từ cẩm nang.
+4. Nhận XP, đánh dấu nhiệm vụ và nhận huy hiệu khi hoàn thành đủ chặng. Hoạt động không có tính giờ, mất mạng sống, bảng xếp hạng hay phạt điểm.
 
-- IES / What Works Clearinghouse, *Organizing Instruction and Study to Improve Student Learning*: practice testing/retrieval và xen kẽ ví dụ có hướng dẫn với thực hành. https://ies.ed.gov/ncee/wwc/PracticeGuide/1
-- NSW CESE, *Cognitive load theory in practice*: hướng dẫn rõ, ví dụ, luyện tập và phản hồi. https://education.nsw.gov.au/about-us/education-data-and-research/cese/publications/practical-guides-for-educators/cognitive-load-theory-in-practice
+Đây là thiết kế học tập cho người trưởng thành: gắn ngữ cảnh công việc, tôn trọng tự chủ, chia nhỏ thông tin, ưu tiên luyện nhớ và phản hồi. Mục tiêu là tạo động lực quay lại và giúp nhận ra điều chưa hiểu; không tuyên bố đo năng lực hành nghề bằng XP.
 
-Đây là cơ sở thiết kế; không phải bằng chứng đánh giá hiệu quả của khóa học VNDIRECT này. Nên lấy phản hồi người học và quan sát việc vận dụng trước khi kết luận về hiệu quả.
+## Lựa chọn tương tác
 
-## Cập nhật nội dung lần sau
+| Nội dung | Tương tác | Căn cứ |
+|---|---|---|
+| Dẫn–Dụng–Dưỡng | Ghép 3 thẻ ý nghĩa | Nguồn 35–37 |
+| Tam Bảo | Nối COL/COP/COE với hành động | 44, 55, 68; tên trụ neo được ẩn trong câu hỏi |
+| 5P | Ghép trụ cột với câu hỏi | 86, 92, 98, 104, 112 |
+| VNDGO | Sắp thứ tự các nếp | Bảng 151; không biến 5P thành quy trình tuần tự |
+| Hành vi | Phân loại 14 thẻ DO/DON’T | 227–233, 235–241 |
+| 7 tình huống | Quyết định + chọn quy tắc | Nguồn ghi trong từng scenario/evidence |
 
-- `content.js` chứa cả khối nội dung và `sources` dùng cho căn cứ phản hồi. Khi cập nhật DOCX, phải cập nhật đồng bộ hai phần, rồi rà lại ID nguồn trong `learning.js`.
-- Khi thay đổi câu hỏi/đáp án hoặc nội dung đáng kể, đổi khóa lưu tiến độ trong `app.js` để tránh kế thừa nhầm kết quả cũ; cân nhắc xuất ghi chú trước khi đổi.
-- Giữ nguyên các thuật ngữ trong nguồn (kể cả tiêu đề còn dùng CA trong khi phần khác dùng DC), chỉ sửa khi chủ sở hữu nội dung duyệt.
-- Giữ file đã duyệt trên `main`, cập nhật qua nhánh và Pull Request, gắn Release sau kiểm tra.
+Thẻ phân loại diễn đạt hành vi để người học tự phân biệt; ví dụ thẻ nhận quà khi chưa rõ điều kiện là hành vi mô phỏng ngược lại quy tắc 240, không phải trích nguyên văn. Nội dung nguồn ở thẻ đọc, tóm tắt và phản hồi vẫn giữ nguyên.
+
+## Hình ảnh, chuyển động và khả năng truy cập
+
+Ảnh trang chủ do người dùng cung cấp. Dùng CSS phủ trắng để tạo nền mờ, không sửa ảnh gốc. Avatar là SVG dựng bằng code: vest ghi xám, sơ mi trắng, phụ kiện cam nhỏ. Không tạo logo mới hoặc gắn logo giả lên đồng phục.
+
+Chuyển động ngắn theo hành động: hover, ripple, thẻ xuất hiện, phân loại, huy hiệu. Không có chuyển động lặp liên tục trong khi đọc. Khi bật giảm chuyển động hoặc hệ điều hành yêu cầu, tắt CSS/WAAPI liên quan. Kéo thả có thao tác bấm và nút lên/xuống tương đương cho bàn phím/cảm ứng. Feedback có vùng live; biểu mẫu có label; trạng thái đúng/sai có chữ; đọc toàn bộ bảng vẫn có thể mở theo yêu cầu.
+
+Chưa có thử nghiệm với người học hoặc browser/LMS thật. Xem QA.md và BI-AUDIT.md trước khi phát hành cho đào tạo.

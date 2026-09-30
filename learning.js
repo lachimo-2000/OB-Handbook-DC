@@ -33,12 +33,5 @@ window.LEARNING = {
   {id:'r6',title:'Một món quà',scene:'Khách đề nghị tặng quà. Bạn chưa rõ điều kiện nhận và cách khai báo.',options:['Nhận trước rồi kiểm tra sau.','Tra chính sách và hỏi người phụ trách trước khi nhận.'],correct:1,sources:[240]},
   {id:'r7',title:'Chia sẻ thông tin',scene:'Bạn cần phối hợp hỗ trợ khách và đang cân nhắc chia sẻ thông tin tài khoản.',options:['Chia sẻ đúng kênh, đúng mục đích và phạm vi được phép.','Gửi toàn bộ dữ liệu cho bên thứ ba để xử lý nhanh.'],correct:0,sources:[233,241]}
  ],
- journey:[
-  {id:'j1',title:'CA là ai?',prompt:'Bạn hiểu vai trò của mình như thế nào? Viết một câu giới thiệu gắn với giá trị muốn trao cho người được phục vụ.',fields:['Vai trò của tôi','Giá trị tôi muốn trao'],links:['position','cares']},
-  {id:'j2',title:'CA đang ở đâu?',prompt:'Nhìn lại vị trí hiện tại của bạn trong công việc: điều đã rõ và đầu mối cần tìm hiểu thêm.',fields:['Điều tôi đã rõ về vai trò hiện tại','Người hoặc đầu mối tôi cần trao đổi'],links:['hwg','bc']},
-  {id:'j3',title:'CA đang làm gì & làm được gì?',prompt:'Chọn một việc thật và làm rõ trách nhiệm, đầu ra cùng phần cần phối hợp.',fields:['Một việc tôi đang phụ trách','Đầu ra cần đạt và hỗ trợ cần có'],links:['fcoc','4truc']},
-  {id:'j4',title:'CA tạo giá trị thế nào?',prompt:'Từ một lần hỗ trợ gần đây hoặc dự kiến, nhìn lại điều khách nhận được và cách xác nhận điều đó.',fields:['Điều khách hàng nhận được','Tôi sẽ xác nhận giá trị đó bằng cách nào?'],links:['position','v']},
-  {id:'j5',title:'CA đang cần gì & có thể phát triển thành gì?',prompt:'Chọn một năng lực cần rèn và một việc thật để luyện cùng phản hồi từ người phù hợp.',fields:['Năng lực tôi muốn rèn','Việc để luyện và người có thể phản hồi'],links:['coe','hwg']},
-  {id:'j6',title:'Mình phải phục vụ CA như thế nào?',prompt:'Nếu bạn là người hỗ trợ CA, hãy xác định nhu cầu và bước phối hợp. Nếu bạn là CA, hãy ghi điều cần trao đổi với người hỗ trợ.',fields:['Nhu cầu hỗ trợ cần làm rõ','Bước phối hợp tiếp theo và người cần trao đổi'],links:['4truc','cop']}
- ]
+ journey:[]
 };

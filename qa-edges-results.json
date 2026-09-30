@@ -1,0 +1,19 @@
+{
+  "passed": 14,
+  "checks": [
+    "Migration does not invent completed new missions",
+    "Old reading/checkpoint mastery retained",
+    "Old scenario still requires new evidence step",
+    "Old CA deep link does not reveal removed activities",
+    "Old handbook notes still display",
+    "Skip-to-content focuses main without routing to an error",
+    "Partial matching draft survives reload",
+    "Drag-and-drop uses same matching model as tap",
+    "Order drag repositions card",
+    "Migration and drag interactions have no script errors",
+    "Learning interactions remain usable when storage is blocked",
+    "Malformed saved rule/order arrays recover safely",
+    "All runtime assets exist locally; no CDN or missing font fetches",
+    "Home photograph preserved byte-for-byte"
+  ]
+}
